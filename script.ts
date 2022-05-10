@@ -1,7 +1,10 @@
-let i = 0;
-let arr = [];
-while (i <= 12) {
-	arr.push(i);
-	i += 1;
+function printAll(name: string) {
+	console.log(`${name} called this function`);
 }
-console.log(arr);
+
+function main() {
+	console.log('Main Function');
+	printAll('Mex');
+}
+
+main();

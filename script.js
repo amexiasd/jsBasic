@@ -1,7 +1,8 @@
-var i = 0;
-var arr = [];
-while (i <= 12) {
-    arr.push(i);
-    i += 1;
+function printAll(name) {
+    console.log("".concat(name, " called this function"));
 }
-console.log(arr);
+function main() {
+    console.log('Main Function');
+    printAll('Mex');
+}
+main();
