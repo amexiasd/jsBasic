@@ -1,0 +1,38 @@
+
+.glass{
+    width: 97vw;
+    height:97vh ;
+   
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    display: flex;
+background: rgba(101, 33, 33, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+body{
+
+    background-color: rgb(111, 205, 205);
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.item{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+   
+}
